@@ -1,4 +1,4 @@
-﻿		
+		
 				
 				
 				
@@ -443,17 +443,17 @@ END PROC
 							 	 								01, 00, 00, 04, 04, 04, 04, 04, 00, 01, 01, 04, 04, 00, 01, 00, 04, 04, 04, 04, _
 							 	 								16, 01, 00, 00, 04, 00, 00, 04, 00, 16, 16, 16, 16, 16, 16, 00, 00, 04, 04, 04, _
 							 	 								07, 16, 00, 16, 00, 00, 00, 00, 00, 00, 00, 00, 00, 07, 00, 00, 00, 00, 04, 04, _
-							 	 								07, 00, 00, 00, 01, 01, 01, 01, 01, 01, 00, 01, 01, 07, 01, 09, 01, 01, 01, 01, _
-							 	 								16, 16, 16, 09, 00, 00, 00, 00, 00, 00, 09, 11, 11, 11, 11, 11, 11, 11, 11, 16, _
-							 	 								00, 07, 00, 00, 00, 00, 04, 00, 00, 00, 04, 01, 01, 01, 01, 01, 01, 01, 01, 07, _
-							 	 								00, 07, 01, 01, 01, 01, 00, 00, 00, 00, 00, 01, 04, 04, 04, 04, 04, 09, 04, 07, _
+							 	 								07, 00, 00, 00, 01, 01, 01, 01, 01, 01, 00, 01, 01, 07, 01, 09, 01, 01, 01, 00, _
+							 	 								16, 16, 16, 09, 00, 00, 00, 00, 00, 00, 09, 11, 11, 11, 11, 11, 11, 11, 11, 00, _
+							 	 								00, 07, 00, 00, 00, 00, 04, 00, 00, 00, 04, 01, 01, 01, 01, 01, 01, 01, 01, 00, _
+							 	 								00, 07, 01, 01, 01, 01, 00, 00, 00, 00, 00, 01, 04, 04, 04, 04, 04, 09, 04, 00, _
 							 	 								00, 07, 01, 01, 01, 01, 00, 00, 00, 00, 01, 01, 00, 16, 04, 16, 16, 16, 16, 16, _
 							 	 								00, 16, 16, 16, 16, 16, 00, 04, 00, 00, 16, 16, 00, 00, 00, 00, 00, 00, 00, 04, _
 							 	 								00, 00, 00, 00, 00, 00, 00, 00, 01, 00, 01, 07, 00, 04, 04, 04, 04, 04, 04, 04, _
-							 	 								00, 01, 00, 00, 01, 01, 00, 01, 01, 01, 01, 07, 01, 01, 01, 01, 01, 01, 01, 01, _
+							 	 								00, 01, 00, 00, 01, 01, 00, 01, 01, 00, 01, 07, 01, 01, 01, 01, 01, 01, 01, 01, _
 							 	 								00, 16, 00, 00, 16, 16, 09, 16, 16, 00, 10, 10, 10, 10, 10, 10, 10, 16, 16, 16, _
 							 	 								00, 07, 00, 00, 00, 00, 00, 07, 04, 00, 04, 04, 04, 04, 04, 04, 00, 04, 04, 07, _
-							 	 								01, 07, 09, 01, 00, 04, 00, 07, 00, 00, 01, 04, 04, 01, 01, 01, 04, 00, 04, 07, _
+							 	 								01, 07, 01, 01, 00, 04, 00, 07, 00, 00, 01, 04, 04, 01, 01, 01, 04, 00, 04, 07, _
 							 	 								16, 16, 16, 16, 04, 04, 04, 07, 00, 16, 16, 00, 04, 11, 11, 11, 04, 04, 01, 07, _
 							 	 								00, 00, 00, 07, 01, 01, 01, 07, 00, 00, 00, 00, 01, 01, 01, 01, 01, 04, 04, 07, _
 							 	 							    04, 00, 04, 07, 01, 01, 01, 07, 00, 00, 00, 00, 10, 10, 10, 10, 10, 00, 01, 07, _
@@ -540,21 +540,21 @@ END PROC
 															   }
 							DIM senUY AS BYTE(lvls, nems) = #{ _
 																 108, 000, 000, 000, 000, 000, _
-																 096, 000, 044, 044, 000, 000, _
+																 096, 000, 044, 020, 000, 000, _
 																 004, 000, 000, 000, 000, 000, _
 																 000, 000, 000, 000, 000, 000  _
 															   }
 							
 							DIM senDY AS BYTE(lvls, nems) = #{ _
 																 140, 000, 000, 064, 000, 000, _
-																 120, 000, 088, 072, 000, 000, _
+																 120, 000, 088, 068, 000, 000, _
 																 048, 000, 000, 000, 000, 000, _
 																 000, 000, 000, 000, 000, 000  _
 															   }
 							
 							DIM sendrX AS SIGNED BYTE(lvls, nems) = #{ _
 																 000, -01, 001, -01, -01, -01, _
-																 001, -01, 001, -01, 000, 000, _
+																 001, -01, 001, 000, 000, 000, _
 																 -01, 001, 000, 000, 000, 000, _
 																 001, 001, 000, 000, 000, 000  _
 															   }
@@ -568,7 +568,7 @@ END PROC
 															   
 							DIM senSpd AS BYTE(lvls, nems) = #{ _
 																 002, 004, 002, 002, 001, 004, _
-																 004, 002, 003, 002, 000, 000, _
+																 004, 002, 003, 003, 000, 000, _
 																 004, 004, 000, 000, 000, 000, _
 																 004, 004, 000, 000, 000, 000  _
 															   }
@@ -928,25 +928,28 @@ mainLoop:
 										ENDIF
 										' 
 										' Check collision with door
+										' if we have all the carrots it trggers the level change
 										'
-										IF (itemsGot <= 01) THEN:
+										IF (itemsGot == 00) THEN:
 										 IF (plrX == doorX AND plrY == doorY) THEN: COLOR BORDER BLUE: EXIT: ENDIF: ENDIF
 										'
+										' Get background for the player
 						 				GET IMAGE plBG FROM oPlrX, oPlrY
-						 				'	
+						 				' get background for enemies and mobile platforms	
 						 				x = 0: REPEAT: 
 						 						IF (x < nemg) THEN: GET IMAGE eBg FRAME x FROM oeX(x), oeY(x): ENDIF
 						 			 	 		IF (x < nmvpg AND mpKind(x) == 13) THEN: GET IMAGE mpBg FRAME x FROM ompX(x), ompY(x): ENDIF
 						 				INC x: UNTIL x == neg
 										'
-										'
+										' draw main character
 						 				putC[plrFrm, plrX, plrY]
 						 				'
+						 				' draw enemies and mobile platforms
 						 				i = 0: REPEAT: 
 						 					   	IF (i < nemg) THEN: PUT IMAGE enms FRAME eKind(i) + eFrm(i) AT eX(i), eY(i): ENDIF
 						 					   	IF (i < nmvpg AND mpKind(i) == 13) THEN: putT[13, mpX(i), mpY(i)]: ENDIF
 						 				INC i: UNTIL i == neg
-						 				'
+						 				' special for last level: animates the witch's laugh
 						 				IF (lvl == 03) THEN: INC haha: IF (haha > 01) THEN:  putT[19, doorX - 08, doorY]: haha = 0: 
 						 							ELSE: putT[14, doorX - 08, doorY]: ENDIF: ENDIF
 						 				'										
@@ -963,6 +966,7 @@ mainLoop:
 exitLoop:
 	'
 	IF (isDied > 00) THEN: 
+		' Put the right death animation (bones/water), swap screen and restore the run
 		IF (isDied == 01) THEN: putD[00, plrX, plrY]: ELSE: putD[01, plrX, plrY]: ENDIF: isDied = 00: DEC lives: 
 		putT[0, lives * 08, 154]: COLOR BORDER BLACK: SCREEN SWAP: playGrunt[]: i = 0: playPause[]: playLose[]: playPause[]
 		putT[0, lives * 08, 154]: IF (lives == 00) THEN: rstCrt[]: WAIT KEY: GOTO splash: ENDIF:
@@ -970,6 +974,7 @@ exitLoop:
 		SCREEN SWAP: plrX = posStartX(lvl): plrY = posStartY(lvl): putC[0, plrX, plrY]: putpBG[oPlrX, oPlrY]: SCREEN SWAP: GOTO startPlay
 	ENDIF
 	'
+	' Final level complete: hide witch's laugh and put witch skeleton, play final music then return to splash screen
 	IF (hasWon == 01) THEN:
 		putT[0, doorX - 08, doorY]
 		PUT IMAGE witch FRAME 01 AT doorX, doorY: PUT IMAGE otto2 FRAME 02 AT plrX, plrY:
@@ -995,17 +1000,20 @@ RETURN
 ' -------------------------- Jump --------------------------
 '
 progressJump:
+	' increment jump and check for ceiling in order to not go over it
 	ADD plrY, jumpCount: IF (plrY < 00) THEN: plrY = 00: ENDIF
 	IF (jumpCount < 04) THEN: INC jumpCount: ENDIF
 	'
+	' increments jump note to play
 	ADD jmpnt, (05 + jumpCount) / 02  
 	'
 	' sounds
 	playJump[]
 	'
+	' is horizionta jump? move the chat horizontally
 	IF isJX = 01 THEN: mvPlrH[plrDirX]: ENDIF	
 	'
-	' Repos on ground if descending on slope
+	' Repos on ground if descending after jump or falling
 	'
 	IF (jumpCount > 03) THEN
 		yMap1 = ltiles(lvl, (plrY + 16) / 8, plrX / 8)
@@ -1028,9 +1036,11 @@ REPEAT:
 	IF (i < nemg) THEN: 
 			' progress animation
 		    INC eFrm(i)
+		    ' peek and poke is a different way to access arrays, let's update the animation frame
 			IF (PEEK(VARPTR(eFrm) + i) > 03) THEN: POKE VARPTR(eFrm) + i, 00: ENDIF: 
 			IF (PEEK(VARPTR(eFrm) + i) < 00) THEN: POKE VARPTR(eFrm) + i, 03: ENDIF
-			posx = eX(i): posy = eY(i): dirx = eDirX(i): diry = eDirY(i): val = eSpd(i)  	
+			posx = eX(i): posy = eY(i): dirx = eDirX(i): diry = eDirY(i): val = eSpd(i) 
+			' new pos coordinates and direction math 	
 			x = posx + (val * dirx): y = posy + (val * diry)
 			' check enemy movement limit and change direction
 			IF (x <= eLX(i) OR x >= eRX(i)) THEN: eDirX(i) = dirx * -01: x = posx: ENDIF
@@ -1085,6 +1095,7 @@ RETURN
 '						
 initLevel:
 	CLS BLACK 
+		' draws the logo, read the current level matrix and draws the level
 	 	PUT IMAGE logo AT 40, 164: i = 0: REPEAT: PUT IMAGE life AT  i * 8, 154: INC i: UNTIL i == lives
 		itemsGot = 0
 	    y = 0: REPEAT
@@ -1119,15 +1130,3 @@ RETURN
 '
 '
 '
-
-
-
-
-
-
-
-
-
-
-
-
